@@ -1,0 +1,23 @@
+.directoryBlock {
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.cardParent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card {
+    width: 80vw;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 6px;
+    margin-top: 8px;
+    background-color: #CFE2F3;
+    cursor: pointer;
+}

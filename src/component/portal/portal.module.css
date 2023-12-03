@@ -1,0 +1,92 @@
+.portalParent {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portal {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.bckbtn {
+    height: 35px;
+    width: 81px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+select {
+    height: 42px;
+    width: 191px;
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pausebtn {
+    height: 35px;
+    width: 141px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 25px;
+}
+.userDetailsParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userDetailsBlock {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.userDetailsBlock>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 80%; */
+    padding: 15px;
+    border: 2px solid;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.postParent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.postBlock {
+    display: flex;
+    gap: 90px;
+    margin-top: 30px;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.postBlock>div {
+    width: 229px;
+    border: 1.5px solid;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.postBlock>div>h4 {
+    margin-bottom: 8px;
+    text-align: center;
+}
